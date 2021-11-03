@@ -4,8 +4,8 @@ n=int(sys.argv[1])
 
 def odd_vs_even(n):
 	if n%2==0:
-		print("Es par!")
+		print("El numero "+str(n)+" es par!")
 	else :
-		print("Es impar...")
+		print("El numero "+str(n)+" es impar...")
 
 odd_vs_even(n)
