@@ -3,8 +3,12 @@ import sys
 
 # Getting the input from command
 n=int(sys.argv[1])
-# Deciding if the number is even or odd by taking its modulus 2
-if n%2==0:
-	print("Es par!")
-else :
-	print("Es impar...")
+# Defining function to decide parity of a number
+
+def odd_vs_even(n):
+	if n%2==0:
+		print("El numero "+str(n)+" es par!")
+	else :
+		print("El numero "+str(n)+" es impar...")
+
+odd_vs_even(n)
